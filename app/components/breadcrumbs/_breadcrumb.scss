@@ -1,0 +1,12 @@
+/* ----- Breadcrumb component ----- */
+
+.c-breadcrumb {
+    & .breadcrumb {
+        background-color: transparent;
+    }
+
+    & .c-breadcrumb__item--active {
+        display: block;
+        font-weight: bold;        
+    }
+}
